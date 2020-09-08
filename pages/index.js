@@ -9,7 +9,7 @@ const HomePage = (props) => {
         <Layout>
             <Container>
                 <Row>
-                    <Col sm="12" md='8' >
+                    <Col sm="12" md='12'  lg='8'>
                         <div className="hero">
                             <p>Hi, <br/>
                                 I am <b>Adeniyi Adedamola. </b> 
