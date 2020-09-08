@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Link from "next/link";
+
 import {
     Collapse,
     Container,
@@ -17,14 +19,18 @@ const Navbarr = () => {
     const toggle = () => setIsOpen(!isOpen);
   
     return (
-        <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="md" className="py-3">
             <Container>
-                <NavbarBrand href="/">Trap Introvert</NavbarBrand>
+                <div className="navbar-brand">
+                    <Link href="/">Trap Introvert</Link>
+                </div>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                    <NavLink className="mx-2" href="/components/">About</NavLink>
+                        <Link href='/about'>
+                            <NavLink className="mx-2">About</NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
                     <NavLink className="mx-2" href="https://github.com/reactstrap/reactstrap">Portfolio</NavLink>

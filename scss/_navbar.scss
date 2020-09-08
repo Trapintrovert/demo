@@ -7,8 +7,10 @@
     
     a{
         color: $primary-color !important;
+        cursor: pointer;
     }
     li {
+        
         
         &:hover{
             font-weight: 600;
