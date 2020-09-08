@@ -1,0 +1,19 @@
+.navbar{
+    background: $color-black !important;
+    
+    .nav-link{
+        color: $primary-color !important;
+    }
+    
+    a{
+        color: $primary-color !important;
+    }
+    li {
+        
+        &:hover{
+            border-bottom: 5px solid $color-white;
+           
+            
+        }
+    }
+}

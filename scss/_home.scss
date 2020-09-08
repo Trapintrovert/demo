@@ -1,0 +1,20 @@
+.hero{
+    color: $primary-color;
+    padding: 7rem 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 67px;
+
+
+    .hero-button{
+        background: $primary-color;
+        color: $color-black;
+        font-weight: 600;
+    }
+
+}
+
+.footer{
+    color: $primary-color;
+}
