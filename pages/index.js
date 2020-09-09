@@ -1,11 +1,10 @@
 import React from 'react';
+import Link from "next/link";
 import Typed from 'react-typed';
 import { Container, Row, Col, Button } from 'reactstrap'
 import Layout from "../components/Layout";
 
 const HomePage = (props) => {
-   
-
     return (
         <Layout>
             <Container>
@@ -19,7 +18,9 @@ const HomePage = (props) => {
                             />  
                                 
                             </p>
-                            <Button className='hero__button'>Know More</Button>
+                            <Button className='hero__button'>
+                                <Link href="/about">Know More</Link>
+                            </Button>
                         </div>
                     </Col>
                     <Col></Col>

@@ -11,6 +11,22 @@
         background: $primary-color;
         color: $color-black;
         font-weight: 600;
+        border-color: $color-white;
+
+        &:hover{
+            border-color: $color-white;
+        }
+        a{
+            background: $primary-color !important;
+            color: $color-black !important;
+            text-decoration: none;
+        }
+    }
+
+    .btn-secondary{
+        &:hover{
+            border-color: $color-white;
+        }
     }
 
 }

@@ -1,0 +1,47 @@
+.portfolio{
+    padding: 6rem 0;
+
+    &__heading{
+        margin-bottom: 1.2rem;
+    }
+
+    &__sub-heading{
+        margin-bottom: 0.6rem;
+    }
+
+    .nav-tabs{
+        border-bottom: none;
+    }
+
+    .btn-info{
+        color: $color-white !important;
+        background-color: $color-black !important;
+        border-color: $color-white !important;
+
+        &:active{
+            color: $color-black !important;
+            background-color: $color-white !important;
+            border-color: $color-white !important;
+        }
+
+        &:hover{
+            color: $color-black !important;
+            background-color: $color-white !important;
+            border-color: $color-white !important;
+        }
+        &:focus{
+            color: $color-black !important;
+            background-color: $color-white !important;
+            border-color: $color-white !important;
+        }
+    }
+
+    .btn{
+        margin-right: 0.8rem;
+    }
+
+    .mag-top{
+        margin-top: $mag-top-3;
+    }
+
+}
