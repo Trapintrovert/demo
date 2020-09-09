@@ -21,9 +21,9 @@ const Navbarr = () => {
     return (
         <Navbar color="light" light expand="md" className="py-3">
             <Container>
-                <div className="navbar-brand">
-                    <Link href="/">Trap Introvert</Link>
-                </div>
+                <Link href="/" className="navbar-brand">
+                    Trap Introvert
+                </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
@@ -33,10 +33,14 @@ const Navbarr = () => {
                         </Link>
                     </NavItem>
                     <NavItem>
-                    <NavLink className="mx-2" href="https://github.com/reactstrap/reactstrap">Portfolio</NavLink>
+                        <Link href='/portfolio'>
+                            <NavLink className="mx-2" >Portfolio</NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
-                    <NavLink className="mx-2" href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                        <Link href='/contact'>
+                            <NavLink className="mx-2">Contact</NavLink>
+                        </Link>
                     </NavItem>
                 </Nav>
                 </Collapse>

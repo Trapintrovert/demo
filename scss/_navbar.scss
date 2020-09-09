@@ -1,5 +1,14 @@
 .navbar{
     background: $color-black !important;
+
+    .navbar-brand{
+
+        & a:hover{
+            text-decoration: none;
+           
+        }
+        
+    }
     
     .nav-link{
         color: $primary-color !important;
@@ -10,7 +19,6 @@
         cursor: pointer;
     }
     li {
-        
         
         &:hover{
             font-weight: 600;
