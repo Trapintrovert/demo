@@ -7,14 +7,10 @@
     line-height: 67px;
 
 
-    .hero-button{
+    &__button{
         background: $primary-color;
         color: $color-black;
         font-weight: 600;
     }
 
-}
-
-.footer{
-    color: $primary-color;
 }
