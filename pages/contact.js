@@ -8,11 +8,17 @@ const contact = () => {
             <section className="contact">
                 <Container>
                     <Row>
-                        <Col md={6}>
+                        <Col>
                             <h3 className="text-center">Connect with me on:</h3>
-
                             <div className="contact__socials">
-                                <i className="fas fa-twitter" aria-hidden="true"></i>
+                                <i className="fab fa-twitter" aria-hidden="true"></i>
+                                <i className="fab fa-instagram" aria-hidden="true"></i>
+                                <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </div>
+                            <div className="contact__email">
+                                <div className="contact__socials">
+                                    <i className="far fa-envelope" aria-hidden="true"></i>: inboxadeniyi@gmail.com
+                                </div>
                             </div>
                         </Col>
                     </Row>

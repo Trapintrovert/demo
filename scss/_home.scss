@@ -20,11 +20,17 @@
             background: $primary-color !important;
             color: $color-black !important;
             text-decoration: none;
+
+            &:hover{
+                background-color: $primary-color !important;
+            }
         }
+        
     }
 
     .btn-secondary{
         &:hover{
+            background-color: $primary-color !important;
             border-color: $color-white;
         }
     }
