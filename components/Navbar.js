@@ -21,7 +21,7 @@ const Navbarr = () => {
         <Navbar color="light" light expand="md" className="py-3">
             <Container>
                 <Link href="/" className="navbar-brand">
-                    Trap Introvert
+                    <span className="logo">Trap Introvert</span>
                 </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

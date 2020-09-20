@@ -8,7 +8,7 @@
 
 
     &__button{
-        background: $primary-color;
+        background: $color-white;
         color: $color-black;
         font-weight: 600;
         border-color: $color-white;
@@ -17,20 +17,22 @@
             border-color: $color-white;
         }
         a{
-            background: $primary-color !important;
+            background: $color-white !important;
             color: $color-black !important;
             text-decoration: none;
 
             &:hover{
-                background-color: $primary-color !important;
+                background-color: $color-white !important;
             }
         }
         
     }
 
     .btn-secondary{
+        background-color: $color-white !important;
+
         &:hover{
-            background-color: $primary-color !important;
+            background-color: $color-white !important;
             border-color: $color-white;
         }
     }

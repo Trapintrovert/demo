@@ -1,6 +1,14 @@
 .navbar{
     background: $color-black !important;
 
+    .logo{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .navbar-toggler{
+        background-color: $color-white;
+    }
     .navbar-brand{
 
         & a:hover{
@@ -26,3 +34,4 @@
         }
     }
 }
+
