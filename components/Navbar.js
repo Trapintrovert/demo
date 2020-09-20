@@ -8,7 +8,8 @@ import {
     NavbarToggler,
     Nav,
     NavItem,
-    NavLink
+    NavLink,
+    Button
   } from 'reactstrap';
 
 const Navbarr = () => {
@@ -40,6 +41,9 @@ const Navbarr = () => {
                         <Link href='/contact'>
                             <NavLink className="mx-2">Contact</NavLink>
                         </Link>
+                    </NavItem>
+                    <NavItem>
+                        <Button className="mx-2 resume">Resume</Button>
                     </NavItem>
                 </Nav>
                 </Collapse>
