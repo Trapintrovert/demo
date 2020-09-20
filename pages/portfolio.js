@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap'
 import { TabContent, TabPane, Nav, NavItem, Card, Button, CardTitle, CardText } from 'reactstrap';
 import classnames from 'classnames';
+import Link from "next/link";
 
 import Layout from '../components/Layout'
 
@@ -71,21 +72,30 @@ const portfolio = () => {
                                     <Col sm="4">
                                         <Card body>
                                             <img src={heritage} alt="Heritage Apparel" className="image" />
-                                            <CardTitle>Heritage Apparel <i className="fas fa-arrow-right" aria-hidden="true"></i></CardTitle>
+                                            <CardTitle>
+                                                Heritage Apparel 
+                                                <Link href="https://www.heritageapparels.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                            </CardTitle>
                                             
                                         </Card>
                                     </Col>
                                     <Col sm="4">
                                     <Card body>
                                         <img src={meyoapp} alt="Meyo app" className="image" />
-                                        <CardTitle>Meyo App</CardTitle>
+                                        <CardTitle>
+                                            Meyo App
+                                            <Link href="https://www.meyoapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     
                                     </Card>
                                     </Col>
                                     <Col sm="4">
                                     <Card body>
                                         <img src={atlandfoods} alt="Atland Foods" className="image" />  
-                                        <CardTitle>AtlandFoods</CardTitle>
+                                        <CardTitle>
+                                            AtlandFoods
+                                            <Link href="https://www.meyoapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     </Card>
                                     </Col>
                                 </Row>
@@ -95,19 +105,28 @@ const portfolio = () => {
                                 <Col sm="4">
                                     <Card body>
                                         <img src={aelustre} alt="aelustre" className="image" />
-                                        <CardTitle>AelustreNg</CardTitle>
+                                        <CardTitle>
+                                            AelustreNg
+                                            <Link href="https://aelustre.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     </Card>
                                 </Col>
                                 <Col sm="4">
                                     <Card body>
                                         <img src={hillory} alt="hillorylogistics" className="image" />
-                                        <CardTitle>Hillory Logistics</CardTitle>
+                                        <CardTitle>
+                                            Hillory Logistics
+                                            <Link href="https://hillorylogistics.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     </Card>
                                 </Col>
                                 <Col sm="4">
                                     <Card body>
                                         <img src={sugar} alt="Sugarstreet" className="image" />
-                                        <CardTitle>Sugar Street</CardTitle>
+                                        <CardTitle>
+                                            Sugar Street
+                                            <Link href="https://sugarstreetng.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     </Card>
                                 </Col>
                             </Row>
@@ -117,21 +136,29 @@ const portfolio = () => {
                                 <Col sm="4">
                                     <Card body>
                                         <img src={crwnClothing} alt="Crwn Clothing" className="image" />
-                                        <CardTitle>Crwn Clothing</CardTitle>
-                                        
+                                        <CardTitle>
+                                            Crwn Clothing
+                                            <Link href="https://crwn-commerce-live.herokuapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
                                     </Card>
                                 </Col>
                                 <Col sm="4">
                                 <Card body>
                                     <img src={chatfood} alt="Chatfood " className="image" />
-                                    <CardTitle>Chatfood AMS</CardTitle>
+                                    <CardTitle>
+                                        Chatfood AMS
+                                        <Link href="https://immense-cove-06725.herokuapp.com"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                    </CardTitle>
                                    
                                 </Card>
                                 </Col>
                                 <Col sm="4">
                                 <Card body>
                                     <img src={oguntech} alt="Oguntech" className="image" />  
-                                    <CardTitle>Ogun Tech</CardTitle>
+                                    <CardTitle>
+                                        Ogun Tech
+                                        <Link href="https://oguntechwebsite.herokuapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                    </CardTitle>
                                 </Card>
                                 </Col>
                             </Row>
