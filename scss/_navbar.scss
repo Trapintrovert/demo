@@ -5,6 +5,7 @@
         font-size: 25px;
         font-weight: bolder;
         color: $primary-color;
+        cursor: pointer;
     }
 
     .navbar-toggler{
@@ -35,7 +36,7 @@
         }
     }
     .resume{
-        background-color: $color-white;
+        background-color: $primary-color;
         color: $color-black;
         font-weight: bold;
     }

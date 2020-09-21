@@ -13,7 +13,7 @@ const HomePage = (props) => {
                         <div className="hero">
                             <p>Hi, <br/>
                             <Typed
-                            strings={["I am Adeniyi Adedamola. I think, write and i code. <br/ > And this is my website you are at. Great, ain't it! " ]}
+                            strings={["Hi, my name is Adeniyi Adedamola, but I prefer you call me Trap. I’m damn sure you want to ask why Trap, I know right but let’s leave that for another day. Click the button &#x1F447; to know little bit more. " ]}
                             typeSpeed={80}
                             />  
                                 
