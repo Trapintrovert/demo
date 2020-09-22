@@ -39,6 +39,11 @@
         background-color: $primary-color;
         color: $color-black;
         font-weight: bold;
+
+        a{
+            color: $color-black !important;
+            text-decoration: none;
+        }
     }
 }
 

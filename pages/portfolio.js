@@ -19,7 +19,7 @@ const portfolio = () => {
     const chatfood = 'https://res.cloudinary.com/trapintrovert/image/upload/v1600441138/chatfood.png';
     const crwnClothing = 'https://res.cloudinary.com/trapintrovert/image/upload/v1600441138/crwn-clothing.png';
 
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('4');
 
     const toggle = tab => {
       if(activeTab !== tab) setActiveTab(tab);
@@ -39,9 +39,18 @@ const portfolio = () => {
                     <Col>
                         <Nav tabs>
                             <NavItem>
+                                <Button
+                                    color='info'
+                                    className={classnames({ active: activeTab === '4' })}
+                                    onClick={() => { toggle('4'); }}
+                                >
+                                    All
+                                </Button>
+                            </NavItem>
+                            <NavItem>
                             <Button
                                 color='info'
-                                className={classnames({ active: activeTab === '3' })}
+                                className={classnames({ active: activeTab === '1' })}
                                 onClick={() => { toggle('1'); }}
                             >
                                 Html, CSS & Bootstrap
@@ -50,7 +59,7 @@ const portfolio = () => {
                             <NavItem>
                                 <Button
                                     color='info'
-                                    className={classnames({ active: activeTab === '1' })}
+                                    className={classnames({ active: activeTab === '2' })}
                                     onClick={() => { toggle('2'); }}
                                 >
                                     Wordpress
@@ -59,7 +68,7 @@ const portfolio = () => {
                             <NavItem>
                                 <Button
                                     color='info'
-                                    className={classnames({ active: activeTab === '2' })}
+                                    className={classnames({ active: activeTab === '3' })}
                                     onClick={() => { toggle('3'); }}
                                 >
                                     React & Node
@@ -132,6 +141,98 @@ const portfolio = () => {
                             </Row>
                             </TabPane>
                             <TabPane tabId="3">
+                            <Row>
+                                <Col sm="4">
+                                    <Card body>
+                                        <img src={crwnClothing} alt="Crwn Clothing" className="image" />
+                                        <CardTitle>
+                                            Crwn Clothing
+                                            <Link href="https://crwn-commerce-live.herokuapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
+                                    </Card>
+                                </Col>
+                                <Col sm="4">
+                                <Card body>
+                                    <img src={chatfood} alt="Chatfood " className="image" />
+                                    <CardTitle>
+                                        Chatfood AMS
+                                        <Link href="https://immense-cove-06725.herokuapp.com"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                    </CardTitle>
+                                   
+                                </Card>
+                                </Col>
+                                <Col sm="4">
+                                <Card body>
+                                    <img src={oguntech} alt="Oguntech" className="image" />  
+                                    <CardTitle>
+                                        Ogun Tech
+                                        <Link href="https://oguntechwebsite.herokuapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                    </CardTitle>
+                                </Card>
+                                </Col>
+                            </Row>
+                            </TabPane>
+                            <TabPane tabId="4">
+                            <Row>
+                            <Col sm="4">
+                                <Card body>
+                                    <img src={heritage} alt="Heritage Apparel" className="image" />
+                                    <CardTitle>
+                                        Heritage Apparel 
+                                        <Link href="https://www.heritageapparels.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                    </CardTitle>
+                                    
+                                </Card>
+                            </Col>
+                            <Col sm="4">
+                            <Card body>
+                                <img src={meyoapp} alt="Meyo app" className="image" />
+                                <CardTitle>
+                                    Meyo App
+                                    <Link href="https://www.meyoapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                </CardTitle>
+                            
+                            </Card>
+                            </Col>
+                            <Col sm="4">
+                            <Card body>
+                                <img src={atlandfoods} alt="Atland Foods" className="image" />  
+                                <CardTitle>
+                                    AtlandFoods
+                                    <Link href="https://www.meyoapp.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                </CardTitle>
+                            </Card>
+                            </Col>
+                        </Row>
+                            <Row>
+                                <Col sm="4">
+                                    <Card body>
+                                        <img src={aelustre} alt="aelustre" className="image" />
+                                        <CardTitle>
+                                            AelustreNg
+                                            <Link href="https://aelustre.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
+                                    </Card>
+                                </Col>
+                                <Col sm="4">
+                                    <Card body>
+                                        <img src={hillory} alt="hillorylogistics" className="image" />
+                                        <CardTitle>
+                                            Hillory Logistics
+                                            <Link href="https://hillorylogistics.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
+                                    </Card>
+                                </Col>
+                                <Col sm="4">
+                                    <Card body>
+                                        <img src={sugar} alt="Sugarstreet" className="image" />
+                                        <CardTitle>
+                                            Sugar Street
+                                            <Link href="https://sugarstreetng.com/"><i className="fas fa-arrow-right" aria-hidden="true"></i></Link>
+                                        </CardTitle>
+                                    </Card>
+                                </Col>
+                            </Row>
                             <Row>
                                 <Col sm="4">
                                     <Card body>

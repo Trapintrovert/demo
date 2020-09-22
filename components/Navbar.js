@@ -43,7 +43,9 @@ const Navbarr = () => {
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Button className="mx-2 resume">Resume</Button>
+                        <Button className="mx-2 resume">
+                            <Link href="https://res.cloudinary.com/trapintrovert/image/upload/v1600741989/Adedamola_Adeniyi_OFFICIAL_CV.pdf">Resume</Link>
+                        </Button>
                     </NavItem>
                 </Nav>
                 </Collapse>

@@ -11,7 +11,7 @@ const about = () => {
                     <Row>
                         <Col> 
                             <h2 className='about__heading'> Adeniyi Adedamola</h2>
-                            <h5 className='about__sub-heading'>A Full Stack JavaScript Developer</h5>
+                            <h5 className='about__sub-heading'>A Full Stack JavaScript Developer (React & Node)</h5>
                         </Col>
                     </Row>
                     <Row>
