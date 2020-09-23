@@ -22,7 +22,9 @@ const contact = () => {
                                 <Link href="https://www.linkedin.com/in/adedamola-adeniyi-aa73b7106/">
                                     <i className="fab fa-linkedin-in" aria-hidden="true"></i>
                                 </Link>
-                               
+                                <Link href="https://github.com/Trapintrovert/">
+                                <i className="fab fa-github" aria-hidden="true"></i>
+                            </Link>
                             </div>
                             <div className="contact__email">
                                 <div className="contact__socials">
