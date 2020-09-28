@@ -17,6 +17,7 @@ const about = () => {
                     <Row>
                         <Col>
                             <div className="about__content">
+                                <p>I write build things for the internet. I write JavaScript, and also use CMS (Content Management System) like Wordpress, Magento and Shopify to design and develop for the web.</p>
                                 <p>I believe there is lot to learn about people but truth is, people say less of who/what they really are by words and letters, the most important piece of people is left in their actions. So, I will only describe myself here as I think of myself based on my interest and perspective. </p>
                                 <p>I’m a deep thinker, I like to analyze problem from it root to understand the cause then check for all elements from start to end to identify the solution. I have interest in Philosophy, Psychology, Entrepreneurship, Technology, Art and Contemporary Culture, Nature and Music.</p>
                                 <p>I think whenever there is need to use my right-side of the brain, I believe thinking can be little too much sometime. Sometimes all you need to do is to wander through the universe and end up with a great smile on your face, imaging being in places you ever dream of or creating objects and events within your mind. Isn’t that incredible? You rule everything within.</p>

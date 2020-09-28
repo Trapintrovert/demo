@@ -10,8 +10,9 @@ const Layout = (props) => (
         <Head>
             <title>&#x26A1; Trap Introvert &#x26A1; </title>
 
-            
-            <title>⚡ Trap Introvert ⚡</title>
+            <meta charSet="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+            <meta name="theme-color" content="#000000"/>
             <meta name="title" content="⚡ Trap Introvert ⚡"/>
             <meta name="description" content="I'm interested in building thing with JavaScript, I write React and NodeJS and also proficient in CMS like WordPress, Magento, and Shopify."/>
 
