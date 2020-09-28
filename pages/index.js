@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 import { Container, Row, Col, Button } from 'reactstrap'
 import Layout from "../components/Layout";
 
-const HomePage = (props) => {
+const HomePage = () => {
     return (
         <Layout>
             <Container>

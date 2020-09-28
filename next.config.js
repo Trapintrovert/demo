@@ -1,5 +1,7 @@
 const withSass = require('@zeit/next-sass');
 const withImages = require('next-images');
+const withPWA = require('next-pwa');
+
 
 module.exports = withImages();
 module.exports = withSass({
@@ -17,3 +19,9 @@ module.exports = withSass({
         return config;
     }
 })
+module.exports = withPWA({
+    pwa: {
+        disable: process.env.NODE_ENV === 'development',
+        dest: 'public'
+      }
+  })
